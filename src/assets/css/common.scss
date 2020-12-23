@@ -1,0 +1,33 @@
+
+$p2:#26c6da;//主题颜色
+$fc:#fff;//主题白色
+$sf:#343434;//主题黑色
+$ef:#83a4a1;//内容导航颜色
+$ns:#969799;//提示灰色
+$dz:#d0d3dc;//border灰色边框
+$ff:#f0f2f5;//背景灰色
+
+
+@mixin flex($a:center,$b:center){
+  display: flex;
+  align-items: $a;
+  justify-content: $b;
+}
+
+@mixin font36(){
+  width: 100%;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+@mixin relative(){
+  position: relative;
+  overflow: hidden;
+}
+
+@mixin cc($top:50%){
+  position: absolute;
+  top: $top;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}

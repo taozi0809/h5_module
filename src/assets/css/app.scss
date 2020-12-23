@@ -1,0 +1,34 @@
+html,body{
+  font-family: "Heiti SC Medium","Helvetica Neue",Helvetica, STHeiTi,sans-serif,Microsoft YaHei;
+}
+a,a:link, a:hover, a:active, a:visited{
+  text-decoration: none;
+  color: #fff;
+  background: none;
+}
+input{
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+*:focus {
+  outline: none;
+  background-color: #fff;
+}
+::selection{background:#fff; }
+::-moz-selection{background:#fff;}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+a,button,input{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+* {
+  touch-action: pan-y;
+}
+*:not(input,textarea), *:before:not(input,textarea), *:after:not(input,textarea) {
+  -webkit-user-select: none;
+}
+
+
